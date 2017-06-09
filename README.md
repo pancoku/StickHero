@@ -1,6 +1,6 @@
 # StickHero
 
-This is an simple iOS game.
+This is a simple iOS game.
 
 Touch your screen, the stick will grow. Then put your finger out of the screen, the stick will fall down. Hero will walk along the stick.
 
