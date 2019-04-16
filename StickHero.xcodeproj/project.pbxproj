@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		FA1226DF1AFC4D4F0080C6A7 /* backgroud.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA1226DE1AFC4D4F0080C6A7 /* backgroud.jpg */; };
 		FA1226E11AFC55320080C6A7 /* moon.png in Resources */ = {isa = PBXBuildFile; fileRef = FA1226E01AFC55320080C6A7 /* moon.png */; };
-		FA1226E71AFCB11F0080C6A7 /* 20130124113026_84iJY.thumb.600_0.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FA1226E61AFCB11F0080C6A7 /* 20130124113026_84iJY.thumb.600_0.jpeg */; };
-		FA1226E91AFCB1620080C6A7 /* 50337b229f914-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA1226E81AFCB1620080C6A7 /* 50337b229f914-2.jpg */; };
+		FA1226E71AFCB11F0080C6A7 /* bg2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FA1226E61AFCB11F0080C6A7 /* bg2.jpeg */; };
+		FA1226E91AFCB1620080C6A7 /* bg1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA1226E81AFCB1620080C6A7 /* bg1.jpg */; };
 		FA12FD2E1AF8892F00746716 /* Stick.m in Sources */ = {isa = PBXBuildFile; fileRef = FA12FD2D1AF8892F00746716 /* Stick.m */; };
 		FA12FD311AF88AC800746716 /* Hero.m in Sources */ = {isa = PBXBuildFile; fileRef = FA12FD301AF88AC800746716 /* Hero.m */; };
 		FA12FD341AF88BF200746716 /* StageBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = FA12FD331AF88BF200746716 /* StageBlock.m */; };
@@ -38,8 +38,8 @@
 /* Begin PBXFileReference section */
 		FA1226DE1AFC4D4F0080C6A7 /* backgroud.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backgroud.jpg; sourceTree = "<group>"; };
 		FA1226E01AFC55320080C6A7 /* moon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moon.png; sourceTree = "<group>"; };
-		FA1226E61AFCB11F0080C6A7 /* 20130124113026_84iJY.thumb.600_0.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 20130124113026_84iJY.thumb.600_0.jpeg; sourceTree = "<group>"; };
-		FA1226E81AFCB1620080C6A7 /* 50337b229f914-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "50337b229f914-2.jpg"; sourceTree = "<group>"; };
+		FA1226E61AFCB11F0080C6A7 /* bg2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg2.jpeg; sourceTree = "<group>"; };
+		FA1226E81AFCB1620080C6A7 /* bg1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg1.jpg; sourceTree = "<group>"; };
 		FA12FD2C1AF8892F00746716 /* Stick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stick.h; sourceTree = "<group>"; };
 		FA12FD2D1AF8892F00746716 /* Stick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stick.m; sourceTree = "<group>"; };
 		FA12FD2F1AF88AC800746716 /* Hero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hero.h; sourceTree = "<group>"; };
@@ -150,10 +150,10 @@
 		FA403F5C1AF7835F00BA4178 /* img */ = {
 			isa = PBXGroup;
 			children = (
-				FA1226E81AFCB1620080C6A7 /* 50337b229f914-2.jpg */,
+				FA1226E81AFCB1620080C6A7 /* bg1.jpg */,
 				FA1226E01AFC55320080C6A7 /* moon.png */,
 				FA1226DE1AFC4D4F0080C6A7 /* backgroud.jpg */,
-				FA1226E61AFCB11F0080C6A7 /* 20130124113026_84iJY.thumb.600_0.jpeg */,
+				FA1226E61AFCB11F0080C6A7 /* bg2.jpeg */,
 				FA403F5A1AF7835700BA4178 /* icon.png */,
 				FAADF6391AF89ACC00D4C09D /* hero.png */,
 			);
@@ -243,12 +243,12 @@
 				FA403F401AF7830800BA4178 /* Main.storyboard in Resources */,
 				FAADF63A1AF89ACC00D4C09D /* hero.png in Resources */,
 				FA1226E11AFC55320080C6A7 /* moon.png in Resources */,
-				FA1226E71AFCB11F0080C6A7 /* 20130124113026_84iJY.thumb.600_0.jpeg in Resources */,
+				FA1226E71AFCB11F0080C6A7 /* bg2.jpeg in Resources */,
 				FA403F5B1AF7835800BA4178 /* icon.png in Resources */,
 				FA403F451AF7830800BA4178 /* LaunchScreen.xib in Resources */,
 				FA1226DF1AFC4D4F0080C6A7 /* backgroud.jpg in Resources */,
 				FA403F421AF7830800BA4178 /* Images.xcassets in Resources */,
-				FA1226E91AFCB1620080C6A7 /* 50337b229f914-2.jpg in Resources */,
+				FA1226E91AFCB1620080C6A7 /* bg1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
