@@ -81,6 +81,62 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F4CC3EFF226781BD005BFAFF /* main */ = {
+			isa = PBXGroup;
+			children = (
+				FA403F381AF7830800BA4178 /* AppDelegate.h */,
+				FA403F391AF7830800BA4178 /* AppDelegate.m */,
+				FA403F3B1AF7830800BA4178 /* ViewController.h */,
+				FA403F3C1AF7830800BA4178 /* ViewController.m */,
+				FA12FD2C1AF8892F00746716 /* Stick.h */,
+				FA12FD2D1AF8892F00746716 /* Stick.m */,
+				FA12FD2F1AF88AC800746716 /* Hero.h */,
+				FA12FD301AF88AC800746716 /* Hero.m */,
+				FA12FD321AF88BF200746716 /* StageBlock.h */,
+				FA12FD331AF88BF200746716 /* StageBlock.m */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		F4CC3F00226781D6005BFAFF /* res */ = {
+			isa = PBXGroup;
+			children = (
+				F4CC3F0422678223005BFAFF /* img */,
+				F4CC3F02226781EA005BFAFF /* ui */,
+			);
+			path = res;
+			sourceTree = "<group>";
+		};
+		F4CC3F02226781EA005BFAFF /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				FA403F3E1AF7830800BA4178 /* Main.storyboard */,
+				FA403F431AF7830800BA4178 /* LaunchScreen.xib */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		F4CC3F0422678223005BFAFF /* img */ = {
+			isa = PBXGroup;
+			children = (
+				FA1226E81AFCB1620080C6A7 /* bg1.jpg */,
+				FA1226E01AFC55320080C6A7 /* moon.png */,
+				FA1226DE1AFC4D4F0080C6A7 /* backgroud.jpg */,
+				FA1226E61AFCB11F0080C6A7 /* bg2.jpeg */,
+				FA403F5A1AF7835700BA4178 /* icon.png */,
+				FAADF6391AF89ACC00D4C09D /* hero.png */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
+		F4CC3F0522678254005BFAFF /* src */ = {
+			isa = PBXGroup;
+			children = (
+				F4CC3EFF226781BD005BFAFF /* main */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
 		FA403F281AF7830800BA4178 = {
 			isa = PBXGroup;
 			children = (
@@ -102,20 +158,9 @@
 		FA403F331AF7830800BA4178 /* StickHero */ = {
 			isa = PBXGroup;
 			children = (
-				FA403F5C1AF7835F00BA4178 /* img */,
-				FA403F381AF7830800BA4178 /* AppDelegate.h */,
-				FA403F391AF7830800BA4178 /* AppDelegate.m */,
-				FA403F3B1AF7830800BA4178 /* ViewController.h */,
-				FA403F3C1AF7830800BA4178 /* ViewController.m */,
-				FA12FD2C1AF8892F00746716 /* Stick.h */,
-				FA12FD2D1AF8892F00746716 /* Stick.m */,
-				FA12FD2F1AF88AC800746716 /* Hero.h */,
-				FA12FD301AF88AC800746716 /* Hero.m */,
-				FA12FD321AF88BF200746716 /* StageBlock.h */,
-				FA12FD331AF88BF200746716 /* StageBlock.m */,
-				FA403F3E1AF7830800BA4178 /* Main.storyboard */,
+				F4CC3F0522678254005BFAFF /* src */,
+				F4CC3F00226781D6005BFAFF /* res */,
 				FA403F411AF7830800BA4178 /* Images.xcassets */,
-				FA403F431AF7830800BA4178 /* LaunchScreen.xib */,
 				FA403F341AF7830800BA4178 /* Supporting Files */,
 			);
 			path = StickHero;
@@ -145,19 +190,6 @@
 				FA403F4F1AF7830800BA4178 /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		FA403F5C1AF7835F00BA4178 /* img */ = {
-			isa = PBXGroup;
-			children = (
-				FA1226E81AFCB1620080C6A7 /* bg1.jpg */,
-				FA1226E01AFC55320080C6A7 /* moon.png */,
-				FA1226DE1AFC4D4F0080C6A7 /* backgroud.jpg */,
-				FA1226E61AFCB11F0080C6A7 /* bg2.jpeg */,
-				FA403F5A1AF7835700BA4178 /* icon.png */,
-				FAADF6391AF89ACC00D4C09D /* hero.png */,
-			);
-			name = img;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
