@@ -1,2 +1,2 @@
 language: objective-c
-xcodebuild -project StickHero.xcodeproj -target StickHero -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+script: xcodebuild -project StickHero.xcodeproj -target StickHero -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
