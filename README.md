@@ -8,5 +8,10 @@ Stick Hero is a bridge building game in which you must precisely stretch the sti
 
 <img src="./images/screenshot.png?raw=true" width = "30%" height = "30%" alt="screenshot" align="center" />
 
+## Contribution
+StickHero is quite a simple game currently, but we can do something to make it more playable. If you get any good idea, you can create an [issue](https://github.com/ivanjlee/StickHero/issues). Or you can contribute to this project directly by creating [pull requests](https://github.com/ivanjlee/StickHero/pulls) .
+
+We welcome any contribuion.
+
 ## License
 StickHero is released under the [BSD 3-Clause License](https://github.com/ivanjlee/StickHero/blob/master/LICENSE)
